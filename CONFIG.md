@@ -57,7 +57,7 @@ make file and add your custom code and configuration in the directories under
   with a setting change in Gruntconfig.json (see below).
 
 - Include any sites directories (like "default"), optionally with settings.php
-  or other files, and if needed a multi-site sites.php in **src/sites/**. (The 
+  or other files, and if needed a multi-site sites.php in **src/sites/**. (The
   contents of src/sites/ are copied into sites/.)
 
 - Include any static files that should be copied into the Drupal docroot on
@@ -241,9 +241,9 @@ This is an example of the settings for theme tasks:
 **themes**: Defines each custom Drupal theme and enables features, like Sass
 processing by Compass.
 
-**themes.<theme>.compass**: Enable compass preprocessing. Either `true` to 
-enable with default compass options, or a configuration object to be passed 
-directly to 
+**themes.<theme>.compass**: Enable compass preprocessing. Either `true` to
+enable with default compass options, or a configuration object to be passed
+directly to
 [grunt-contrib-compass](https://github.com/gruntjs/grunt-contrib-compass)
 for this theme.
 
